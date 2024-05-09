@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5887803-16bb-4578-b9a1-6fb27a4d9005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/yoll/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/AdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/test_data/DataProviders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/test_data/ExpectedErrorMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/test_data/ExpectedMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/AdminPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/utils/DriverFactory.java" afterDir="false" />
+    <list default="true" id="e5887803-16bb-4578-b9a1-6fb27a4d9005" name="Changes" comment="FrameWork">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/PimPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/AddEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/test_data/ExpectedMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/test_data/ExpectedMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/AdminPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/AdminPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,32 +41,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.AdminPageTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AdminPageTests.verifyAdminPageHeader.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTests.testErrorMessagesWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/michelkatimi/IdeaProjects/Demo-Selenium-testNG-Framework/src/main/java/io/yoll/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AddEmployeeTest.addEmployee.executor": "Run",
+    "TestNG.AdminPageTests.executor": "Run",
+    "TestNG.AdminPageTests.verifyAdminPageHeader.executor": "Run",
+    "TestNG.LoginTests.executor": "Run",
+    "TestNG.LoginTests.testErrorMessagesWithInvalidCredentials.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/michelkatimi/IdeaProjects/Demo-Selenium-testNG-Framework/src/main/java/io/yoll/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.LoginTests">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.yoll.Main" />
+}]]></component>
+  <component name="RunManager" selected="TestNG.AddEmployeeTest.addEmployee">
+    <configuration name="AddEmployeeTest.addEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Demo-Selenium-testNG-Framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.yoll.*" />
+          <option name="PATTERN" value="com.orange_hrm.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.orange_hrm.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.orange_hrm.tests.AddEmployeeTest" />
+      <option name="METHOD_NAME" value="addEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddEmployeeTest.addEmployee" />
         <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.AdminPageTests" />
         <item itemvalue="TestNG.LoginTests.testErrorMessagesWithInvalidCredentials" />
         <item itemvalue="TestNG.AdminPageTests.verifyAdminPageHeader" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +166,20 @@
       <option name="presentableId" value="Default" />
       <updated>1714661053972</updated>
     </task>
+    <task id="LOCAL-00001" summary="FrameWork">
+      <option name="closed" value="true" />
+      <created>1715204332169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715204332169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FrameWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="FrameWork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -18,6 +18,9 @@ public class HomePage {
     @FindBy(id = "menu_admin_viewAdminModule")
     private WebElement adminTab;
 
+    @FindBy(id = "menu_pim_viewPimModule")
+    private WebElement pimTab;
+
     public void clickAdminTab(){
         adminTab.click();
     }
@@ -25,5 +28,10 @@ public class HomePage {
     public String getWelcomeMessage(){
         return welcomeElement.getText();
     }
+
+    public void clickPimTab(){
+        pimTab.click();
+    }
+
 }
 

@@ -25,7 +25,7 @@ public class AdminPageTests extends TestBase {
             HomePage homePage = new HomePage(driver);
             homePage.clickAdminTab();
             AdminPage adminPage = new AdminPage(driver);
-            String actualHeader = adminPage.getUserManagementHEader();
+            String actualHeader = adminPage.getUserManagementHeader();
             Assert.assertEquals(actualHeader, ExpectedMessages.USER_MANAGEMENT_HEADER, "Admin header verification failed!");
 
 

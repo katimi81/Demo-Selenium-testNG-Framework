@@ -15,7 +15,7 @@ public class AdminPage {
     @FindBy(xpath = "//div[@id = 'systemUser-information']/div/h1")
     private WebElement userManagementHeader;
 
-    public String getUserManagementHEader(){
+    public String getUserManagementHeader(){
         return userManagementHeader.getText();
     }
 
