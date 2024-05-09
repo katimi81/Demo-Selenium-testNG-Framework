@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5887803-16bb-4578-b9a1-6fb27a4d9005" name="Changes" comment="FrameWork">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/PimPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/AddEmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/test_data/ExpectedMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/test_data/ExpectedMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/AdminPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange_hrm/tests/AdminPageTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5887803-16bb-4578-b9a1-6fb27a4d9005" name="Changes" comment="validated login details when checkbox &quot;Create Login Details&quot; is selected" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,12 +166,32 @@
       <option name="project" value="LOCAL" />
       <updated>1715204332169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="validated login details when checkbox &quot;Create Login Details&quot; is selected">
+      <option name="closed" value="true" />
+      <created>1715222441477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715222441477</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FrameWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="FrameWork" />
+    <MESSAGE value="validated login details when checkbox &quot;Create Login Details&quot; is selected" />
+    <option name="LAST_COMMIT_MESSAGE" value="validated login details when checkbox &quot;Create Login Details&quot; is selected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
